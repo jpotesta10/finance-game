@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Finance Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Personal Finance Game</h1>
+    </header>
+    <main>
+        <section id="finance-overview">
+            <h2>Finance Overview</h2>
+            <p>Balance: <span id="balance">1000</span> Coins</p>
+            <p>Income: <span id="income">100</span> Coins/turn</p>
+            <p>Expenses: <span id="expenses">50</span> Coins/turn</p>
+            <button onclick="earnIncome()">Earn Income</button>
+            <button onclick="payExpenses()">Pay Expenses</button>
+            <button onclick="invest()">Invest</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Personal Finance Game</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
